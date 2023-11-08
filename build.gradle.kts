@@ -25,4 +25,6 @@ tasks.test {
 application {
     mainClass.set("Application")
 }
+// https://mvnrepository.com/artifact/com.googlecode.lanterna/lanterna
+implementation group: 'com.googlecode.lanterna', name: 'lanterna', version: '3.1.1'
 
